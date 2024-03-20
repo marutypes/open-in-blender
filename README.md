@@ -22,6 +22,12 @@ The `open_in_blender.bat` batch file calls Blender with the `import_model.py`scr
 ## Usage
 
 1. Right-click on an `.fbx`, `.obj`, or `.dae` file in Windows Explorer.
+
 2. Select `Open with > Choose another app > More apps > Look for another app on this PC`.
+![A screenshot of the context menu for opening a file with a custom program in windows 11](img/example_open_with.png)
+![A screenshot of the app selector pop-up in windows 11](img/example_choose_an_app.png)
+
 3. Navigate to the directory where you cloned this repository and select the `open_with_blender.bat` file.
-4. Click the checkbox to set it as the default way to open these files.
+![A screenshot of the app selector pop-up in windows 11](img/example_choose_script.png)
+
+4. Click "Always" to have Windows default to opening the file-type with blender.
